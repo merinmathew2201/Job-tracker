@@ -248,7 +248,7 @@ function AddJob() {
                 <Box sx={{ flex: '1 1 auto' }} />
 
                 {activeStep === steps.length - 1 ?
-                  <Button onClick={handleAddJob}>Finish</Button> :
+                  <Button onClick={handleAddJob}>Submit</Button> :
                   <Button onClick={handleNext}>Next</Button>}
 
               </Box>
