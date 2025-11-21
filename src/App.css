@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+.hover-card:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
